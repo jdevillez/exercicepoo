@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+#connexion form .titre_form {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 30px;
+}
+#connexion fieldset {
+    border:none;
+    text-align: center;
+}
+#connexion input {
+    background-color: #333333;
+    color: white;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: 25px;
+    width: 50%;
+    font: 100 13px Roboto;
+    margin-top: 10px;
+}
+#connexion ::placeholder {
+    color: white;
+}
+#connexion form {
+    
+    border-radius: 5px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#connexion button {
+    background: #E81111;
+    border-radius: 5px;
+    border: 1px solid #E81111;
+    height: 30px;
+    color: white;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+#connexion label {
+    text-align: center;
+}
+
+#connexion .titre_form {
+    padding-top: 30px;
+    font-weight: 400;
+    font-size: 36px;
+}
+#connexion a {
+    text-decoration: red underline;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    color: red;
+}
+#connexion .space {
+    margin-top: 30px;
+}
+#connexion input[type=checkbox] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+}
+#connexion input[type=checkbox] {
+    border-radius: 3px !important;
+    height: 17px !important;
+    width: 17px !important;
+    background: #fff !important;
+    border: 1px solid black !important;
+    cursor: pointer !important;
+    
+}
+#connexion input[type="checkbox"]:checked::before {
+    content: '' !important;
+    color: red !important;
+    transition: all .2s !important;
+    opacity: 0.1 !important;
+    cursor: pointer !important;
+   
+}
+#connexion input[type="checkbox"]:checked::after {
+    content: '✔';
+    font-size: 16px;
+    line-height: 1.1;
+    color: green !important;
+    transition: all .2s !important;
+    width: 17px !important; height: 17px !important;
+    cursor: pointer !important;
+    border: none !important;
+    
+    
+}
+#connexion [type="checkbox"]:checked:focus,
+[type="checkbox"]:not(:checked):focus {
+    display: none !important;
+    
+}
+
